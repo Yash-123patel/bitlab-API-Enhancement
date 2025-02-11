@@ -1,0 +1,757 @@
+07-02-2025_10:17:42.917{UTC}|report-tool|INFO ||o.s.b.t.c.SpringBootTestContextBootstrapper|Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.talentstream.TalentStreamApplicationTests], using SpringBootContextLoader
+07-02-2025_10:17:42.931{UTC}|report-tool|INFO ||o.s.t.c.s.AbstractContextLoader|Could not detect default resource locations for test class [com.talentstream.TalentStreamApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+07-02-2025_10:17:42.933{UTC}|report-tool|INFO ||o.s.t.c.s.AnnotationConfigContextLoaderUtils|Could not detect default configuration classes for test class [com.talentstream.TalentStreamApplicationTests]: TalentStreamApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07-02-2025_10:17:43.230{UTC}|report-tool|INFO ||o.s.b.t.c.SpringBootTestContextBootstrapper|Found @SpringBootConfiguration com.talentstream.TalentStreamApplication for test class com.talentstream.TalentStreamApplicationTests
+07-02-2025_10:17:43.630{UTC}|report-tool|INFO ||o.s.b.t.c.SpringBootTestContextBootstrapper|Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+07-02-2025_10:17:43.684{UTC}|report-tool|INFO ||o.s.b.t.c.SpringBootTestContextBootstrapper|Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1cfc2538, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66deec87, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5d342959, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2ecf5915, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@53e76c11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42cc183e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e4e8fdf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6a1d6ef2, org.springframework.test.context.event.EventPublishingTestExecutionListener@2721044, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@205df5dc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6aa7b67f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6bcc3f27, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79aee22a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36920bd6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@61514735]
+07-02-2025_10:17:44.341{UTC}|report-tool|WARN ||o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer|
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Yashpatel/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Yashpatel/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+07-02-2025_10:17:44.346{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+07-02-2025_10:17:44.395{UTC}|report-tool|INFO ||c.t.TalentStreamApplicationTests|Starting TalentStreamApplicationTests using Java 17.0.12 on SYMPLT1017 with PID 14784 (started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+07-02-2025_10:17:44.397{UTC}|report-tool|DEBUG||c.t.TalentStreamApplicationTests|Running with Spring Boot v2.7.9, Spring v5.3.25
+07-02-2025_10:17:44.398{UTC}|report-tool|INFO ||c.t.TalentStreamApplicationTests|No active profile set, falling back to 1 default profile: "default"
+07-02-2025_10:17:46.390{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-02-2025_10:17:46.666{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 255 ms. Found 28 JPA repository interfaces.
+07-02-2025_10:17:48.048{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+07-02-2025_10:17:48.215{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+07-02-2025_10:17:48.658{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-02-2025_10:17:49.016{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+07-02-2025_10:17:51.493{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+07-02-2025_10:17:51.538{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+07-02-2025_10:17:54.175{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-02-2025_10:17:54.209{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_10:17:55.877{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+07-02-2025_10:17:56.695{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+07-02-2025_10:17:57.858{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2025_10:17:58.760{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3891a4cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@561c4e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fce755d, org.springframework.security.web.header.HeaderWriterFilter@21f1669b, org.springframework.security.web.authentication.logout.LogoutFilter@578ddb54, com.talentstream.filter.JwtRequestFilter@23ceb383, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d1171ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4139998e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35b485aa, org.springframework.security.web.session.SessionManagementFilter@43eef8cb, org.springframework.security.web.access.ExceptionTranslationFilter@64a85df6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31ecbd0c]
+07-02-2025_10:18:01.882{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+07-02-2025_10:18:01.891{UTC}|report-tool|INFO ||c.t.TalentStreamApplicationTests|Started TalentStreamApplicationTests in 18.091 seconds (JVM running for 20.902)
+07-02-2025_10:18:01.951{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is not healthy
+07-02-2025_10:18:02.550{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_10:18:02.553{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+07-02-2025_10:18:04.537{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+07-02-2025_15:01:08.871{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+07-02-2025_15:01:08.895{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 6456 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+07-02-2025_15:01:08.896{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+07-02-2025_15:01:08.897{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+07-02-2025_15:01:10.956{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-02-2025_15:01:11.150{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 178 ms. Found 28 JPA repository interfaces.
+07-02-2025_15:01:12.059{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+07-02-2025_15:01:12.073{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+07-02-2025_15:01:12.075{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+07-02-2025_15:01:12.075{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+07-02-2025_15:01:12.287{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+07-02-2025_15:01:12.288{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 3322 ms
+07-02-2025_15:01:12.740{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+07-02-2025_15:01:12.868{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+07-02-2025_15:01:13.182{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-02-2025_15:01:13.360{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+07-02-2025_15:01:16.033{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+07-02-2025_15:01:16.072{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+07-02-2025_15:01:18.209{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-02-2025_15:01:18.228{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_15:01:18.886{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+07-02-2025_15:01:19.487{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+07-02-2025_15:01:20.140{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+07-02-2025_15:01:20.828{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2025_15:01:21.307{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26a0068a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@783a2fec, org.springframework.security.web.context.SecurityContextPersistenceFilter@943184c, org.springframework.security.web.header.HeaderWriterFilter@2a90c15e, org.springframework.security.web.authentication.logout.LogoutFilter@7c75f3a8, com.talentstream.filter.JwtRequestFilter@1c0ec502, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aac520e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24484dfb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61236349, org.springframework.security.web.session.SessionManagementFilter@36117f63, org.springframework.security.web.access.ExceptionTranslationFilter@98dc042, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f7d20c5]
+07-02-2025_15:01:21.796{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+07-02-2025_15:01:21.838{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+07-02-2025_15:01:23.107{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+07-02-2025_15:01:23.122{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 15.047 seconds (JVM running for 16.806)
+07-02-2025_15:01:23.274{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-02-2025_15:01:23.274{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+07-02-2025_15:01:23.277{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 3 ms
+07-02-2025_15:01:23.306{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+07-02-2025_15:01:23.306{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+07-02-2025_15:01:23.306{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+07-02-2025_15:01:23.370{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+07-02-2025_15:03:02.460{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:354)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.talentstream.service.JwtUtil.extractAllClaims(JwtUtil.java:53)
+	at com.talentstream.service.JwtUtil.extractClaim(JwtUtil.java:46)
+	at com.talentstream.service.JwtUtil.extractUsername(JwtUtil.java:38)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:46)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+07-02-2025_15:03:16.874{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+07-02-2025_15:03:16.875{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+07-02-2025_15:03:16.876{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+07-02-2025_15:03:17.001{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+07-02-2025_15:03:17.017{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+07-02-2025_15:03:17.540{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+07-02-2025_15:03:17.540{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+07-02-2025_15:03:17.901{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_15:03:27.510{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_15:03:27.515{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:27.516{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:27.517{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_15:03:34.449{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_15:03:34.453{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:34.455{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:34.455{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_15:03:38.776{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_15:03:38.778{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:38.779{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:03:38.780{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_15:05:55.998{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 42P05
+07-02-2025_15:05:55.999{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: prepared statement "S_2" already exists
+07-02-2025_15:05:56.015{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:259)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy146.findByEmail(Unknown Source)
+	at com.talentstream.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:37)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406)
+	at jdk.proxy2/jdk.proxy2.$Proxy213.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: prepared statement "S_2" already exists
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 96 common frames omitted
+07-02-2025_15:06:25.074{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_15:06:25.076{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:06:25.078{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTIwNzk3LCJleHAiOjE3Mzk1MjU1OTd9.76CHqFNrd9mzzrDDLQBjKreAobrnybkrzRsYUgH2nMs
+07-02-2025_15:06:25.078{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_17:04:51.043{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m3s43ms700µs600ns).
+07-02-2025_17:29:27.764{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+07-02-2025_17:29:27.787{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+07-02-2025_17:29:27.788{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+07-02-2025_17:29:27.790{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+07-02-2025_17:29:27.796{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+07-02-2025_17:29:27.796{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+07-02-2025_17:29:27.801{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+07-02-2025_17:29:27.824{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_17:29:27.827{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+07-02-2025_17:29:27.834{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+07-02-2025_18:37:51.113{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+07-02-2025_18:37:51.135{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 10900 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+07-02-2025_18:37:51.135{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+07-02-2025_18:37:51.136{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+07-02-2025_18:37:53.110{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-02-2025_18:37:53.321{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 192 ms. Found 28 JPA repository interfaces.
+07-02-2025_18:37:54.277{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+07-02-2025_18:37:54.292{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+07-02-2025_18:37:54.293{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+07-02-2025_18:37:54.293{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+07-02-2025_18:37:54.574{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+07-02-2025_18:37:54.575{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 3344 ms
+07-02-2025_18:37:54.909{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+07-02-2025_18:37:55.011{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+07-02-2025_18:37:55.355{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-02-2025_18:37:55.533{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+07-02-2025_18:37:56.579{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+07-02-2025_18:37:56.631{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+07-02-2025_18:37:58.248{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-02-2025_18:37:58.264{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_18:37:58.863{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+07-02-2025_18:37:59.412{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+07-02-2025_18:38:00.084{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+07-02-2025_18:38:00.765{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-02-2025_18:38:01.178{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b20024b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f8ede54, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d4f6121, org.springframework.security.web.header.HeaderWriterFilter@257f1509, org.springframework.security.web.authentication.logout.LogoutFilter@7d7f49f3, com.talentstream.filter.JwtRequestFilter@2e549515, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c366d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5679e464, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e0383d3, org.springframework.security.web.session.SessionManagementFilter@22b8eaf0, org.springframework.security.web.access.ExceptionTranslationFilter@24484dfb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e1bd2b]
+07-02-2025_18:38:01.859{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+07-02-2025_18:38:01.923{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+07-02-2025_18:38:03.694{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+07-02-2025_18:38:03.700{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 13.242 seconds (JVM running for 15.031)
+07-02-2025_18:38:03.826{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-02-2025_18:38:03.827{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+07-02-2025_18:38:03.830{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 2 ms
+07-02-2025_18:38:03.858{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+07-02-2025_18:38:03.858{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+07-02-2025_18:38:03.858{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+07-02-2025_18:38:03.932{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+07-02-2025_18:39:01.417{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+07-02-2025_18:39:04.908{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+07-02-2025_18:39:04.910{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+07-02-2025_18:39:04.912{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+07-02-2025_18:39:05.125{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+07-02-2025_18:39:05.145{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+07-02-2025_18:39:05.364{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+07-02-2025_18:39:05.364{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+07-02-2025_18:39:05.442{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:39:18.018{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+07-02-2025_18:39:36.875{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:39:36.879{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:39:36.880{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:39:36.880{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:39:36.930{UTC}|report-tool|WARN ||o.s.w.s.m.s.DefaultHandlerExceptionResolver|Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+07-02-2025_18:39:43.172{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:39:43.177{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:39:43.177{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:39:43.177{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:39:43.467{UTC}|report-tool|WARN ||o.s.w.m.s.StandardServletMultipartResolver|Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1250)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1107)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	... 84 common frames omitted
+07-02-2025_18:39:43.470{UTC}|report-tool|ERROR||o.a.c.h.Http11Processor|Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:441)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	... 13 common frames omitted
+07-02-2025_18:39:43.475{UTC}|report-tool|ERROR||o.a.c.h.Http11NioProtocol|Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:515)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:429)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	... 13 common frames omitted
+07-02-2025_18:39:43.476{UTC}|report-tool|ERROR||o.a.t.u.n.NioEndpoint|Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:515)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:539)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1439)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1098)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1056)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000001.tmp
+	... 14 common frames omitted
+07-02-2025_18:40:56.149{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:40:56.154{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:40:56.154{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:40:56.155{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:40:56.338{UTC}|report-tool|WARN ||o.s.w.s.m.s.DefaultHandlerExceptionResolver|Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+07-02-2025_18:41:00.778{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:41:00.780{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:41:00.781{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:41:00.781{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:42:04.551{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:42:04.555{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:04.556{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:04.556{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:42:04.565{UTC}|report-tool|WARN ||o.s.w.s.m.s.DefaultHandlerExceptionResolver|Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+07-02-2025_18:42:08.332{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:42:08.334{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:08.335{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:08.335{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:42:08.500{UTC}|report-tool|WARN ||o.s.w.m.s.StandardServletMultipartResolver|Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1250)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1107)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	... 84 common frames omitted
+07-02-2025_18:42:08.502{UTC}|report-tool|ERROR||o.a.c.h.Http11Processor|Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:441)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	... 13 common frames omitted
+07-02-2025_18:42:08.504{UTC}|report-tool|ERROR||o.a.c.h.Http11NioProtocol|Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:515)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:429)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	... 13 common frames omitted
+07-02-2025_18:42:08.506{UTC}|report-tool|ERROR||o.a.t.u.n.NioEndpoint|Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:54)
+	at org.apache.catalina.connector.Request.recycle(Request.java:483)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:515)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:539)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1439)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1098)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1056)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.IOException: Cannot delete C:\Users\Yashpatel\AppData\Local\Temp\tomcat.8081.16341518742742514928\work\Tomcat\localhost\ROOT\upload_9b2e45ea_5630_4000_bfcd_37e3ddd28952_00000005.tmp
+	... 14 common frames omitted
+07-02-2025_18:42:56.931{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:42:56.933{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:56.934{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:42:56.934{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:42:56.946{UTC}|report-tool|WARN ||o.s.w.s.m.s.DefaultHandlerExceptionResolver|Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+07-02-2025_18:43:01.221{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:43:01.226{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:43:01.227{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:43:01.227{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:44:11.465{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:44:11.468{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:44:11.469{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:44:11.470{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:44:17.742{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+07-02-2025_18:44:17.745{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:44:17.745{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM4OTMzNzQ2LCJleHAiOjE3Mzk1Mzg1NDZ9.HbEBbsfb1hVnW2b-WqJq_tLJe1eLYgt9Jmkr5bvMPGk
+07-02-2025_18:44:17.745{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+07-02-2025_18:53:32.672{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1b596e8b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+07-02-2025_19:03:48.908{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+07-02-2025_19:03:48.929{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+07-02-2025_19:03:48.930{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+07-02-2025_19:03:48.934{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+07-02-2025_19:03:48.942{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+07-02-2025_19:03:48.944{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+07-02-2025_19:03:48.948{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+07-02-2025_19:03:48.979{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+07-02-2025_19:03:48.981{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+07-02-2025_19:03:49.299{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
