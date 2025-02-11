@@ -6504,3 +6504,1251 @@ Caused by: java.lang.IllegalArgumentException: Invalid server-error-value 'Wrong
 11-02-2025_13:03:29.179{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
 11-02-2025_13:03:29.180{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
 11-02-2025_13:03:29.267{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+11-02-2025_15:25:55.096{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+11-02-2025_15:25:55.117{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 5248 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+11-02-2025_15:25:55.117{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+11-02-2025_15:25:55.118{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+11-02-2025_15:25:56.657{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-02-2025_15:25:56.871{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 196 ms. Found 28 JPA repository interfaces.
+11-02-2025_15:25:57.873{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+11-02-2025_15:25:57.889{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:25:57.891{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+11-02-2025_15:25:57.891{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-02-2025_15:25:58.121{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+11-02-2025_15:25:58.122{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2917 ms
+11-02-2025_15:25:58.509{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+11-02-2025_15:25:58.630{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+11-02-2025_15:25:58.937{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-02-2025_15:25:59.121{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+11-02-2025_15:26:01.937{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+11-02-2025_15:26:01.996{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-02-2025_15:26:04.230{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-02-2025_15:26:04.256{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:26:04.830{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+11-02-2025_15:26:05.436{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+11-02-2025_15:26:06.103{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+11-02-2025_15:26:06.691{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-02-2025_15:26:07.097{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cc9b564, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ce80c85, org.springframework.security.web.context.SecurityContextPersistenceFilter@57f8a3cf, org.springframework.security.web.header.HeaderWriterFilter@2625eb84, org.springframework.security.web.authentication.logout.LogoutFilter@4f94b2a8, com.talentstream.filter.JwtRequestFilter@5a86112a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b6a9ef6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16bed816, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25dd9eb6, org.springframework.security.web.session.SessionManagementFilter@4528a871, org.springframework.security.web.access.ExceptionTranslationFilter@613bebb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bd466bd]
+11-02-2025_15:26:07.498{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:26:07.533{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+11-02-2025_15:26:08.721{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+11-02-2025_15:26:08.725{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 14.245 seconds (JVM running for 16.058)
+11-02-2025_15:26:08.862{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-02-2025_15:26:08.863{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+11-02-2025_15:26:08.866{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 3 ms
+11-02-2025_15:26:08.903{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:26:08.904{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:26:08.904{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:26:08.972{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+11-02-2025_15:26:21.194{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:26:21.195{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:26:21.196{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:26:21.320{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_15:26:21.332{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_15:26:22.013{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+11-02-2025_15:26:22.014{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+11-02-2025_15:26:22.371{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:26:32.027{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:26:32.032{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3NzgyLCJleHAiOjE3Mzk4NzI1ODJ9._Ap3B3sTEXZkiYL4um4AyyvZY5MaWUs2cofhqA2LtsI
+11-02-2025_15:26:32.033{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3NzgyLCJleHAiOjE3Mzk4NzI1ODJ9._Ap3B3sTEXZkiYL4um4AyyvZY5MaWUs2cofhqA2LtsI
+11-02-2025_15:26:32.034{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:26:32.522{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: pdf
+11-02-2025_15:26:36.501{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:26:36.504{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3NzgyLCJleHAiOjE3Mzk4NzI1ODJ9._Ap3B3sTEXZkiYL4um4AyyvZY5MaWUs2cofhqA2LtsI
+11-02-2025_15:26:36.505{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3NzgyLCJleHAiOjE3Mzk4NzI1ODJ9._Ap3B3sTEXZkiYL4um4AyyvZY5MaWUs2cofhqA2LtsI
+11-02-2025_15:26:36.505{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:26:36.910{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: doc
+11-02-2025_15:26:37.185{UTC}|report-tool|INFO ||o.j.r.t.RemoteConversionTask|Executing remote conversion task...
+11-02-2025_15:27:37.495{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+11-02-2025_15:27:37.516{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:27:37.516{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+11-02-2025_15:27:37.523{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:27:38.603{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:27:39.693{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:27:39.804{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+11-02-2025_15:27:39.823{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:27:39.829{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:444)
+ java.base@17.0.12/java.util.concurrent.FutureTask.get(FutureTask.java:203)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.waitTaskCompletion(AbstractOfficeManagerPoolEntry.java:95)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.execute(AbstractOfficeManagerPoolEntry.java:86)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPool.execute(AbstractOfficeManagerPool.java:216)
+ app//org.jodconverter.remote.RemoteConverter$RemoteConversionJob.doExecute(RemoteConverter.java:121)
+ app//org.jodconverter.core.job.AbstractConversionJob.execute(AbstractConversionJob.java:63)
+ app//com.talentstream.service.ApplicantResumeService.convertDocToPdfInMemory(ApplicantResumeService.java:252)
+ app//com.talentstream.service.ApplicantResumeService.getResumeByApplicantId(ApplicantResumeService.java:212)
+ app//com.talentstream.controller.ApplicantResumeController.getResume(ApplicantResumeController.java:53)
+ java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+ java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
+ app//org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+ app//org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+ app//org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+ app//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+ app//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+ app//org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+ app//org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+ app//org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+ app//org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+ app//org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+ app//javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+ app//org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+ app//javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+ app//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+ app//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+ app//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+ app//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+ app//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+ app//org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+ app//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+ app//org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+ app//org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+ app//org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+ app//org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ app//org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ app//org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ app//org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ app//org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ app//org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+ app//org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+ app//org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ app//org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+ app//org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+ app//org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)]
+11-02-2025_15:27:39.836{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [jodconverter-poolentry-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:290)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+ java.base@17.0.12/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+ app//org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+ app//org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+ app//org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+ app//org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+ app//org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+ app//org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+ app//org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+ app//org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+ app//org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+ app//org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+ app//org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+ app//org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+ app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+ app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+ app//org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+ app//org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+ app//org.jodconverter.remote.task.RemoteConversionTask.execute(RemoteConversionTask.java:148)
+ app//org.jodconverter.remote.office.RemoteOfficeManagerPoolEntry.doExecute(RemoteOfficeManagerPoolEntry.java:302)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.lambda$execute$0(AbstractOfficeManagerPoolEntry.java:81)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry$$Lambda$1880/0x00000239a9b2d840.call(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:27:39.839{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:27:39.894{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Error converting document to PDF
+	at com.talentstream.service.ApplicantResumeService.convertDocToPdfInMemory(ApplicantResumeService.java:255)
+	at com.talentstream.service.ApplicantResumeService.getResumeByApplicantId(ApplicantResumeService.java:212)
+	at com.talentstream.controller.ApplicantResumeController.getResume(ApplicantResumeController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:27:39.912{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:27:39.930{UTC}|report-tool|INFO ||o.j.c.o.AbstractOfficeManagerPool|Stopping the office manager pool...
+11-02-2025_15:27:39.941{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:27:39.944{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+11-02-2025_15:27:43.504{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+11-02-2025_15:27:49.420{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+11-02-2025_15:27:49.441{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 12780 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+11-02-2025_15:27:49.442{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+11-02-2025_15:27:49.442{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+11-02-2025_15:27:50.761{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-02-2025_15:27:50.947{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 175 ms. Found 28 JPA repository interfaces.
+11-02-2025_15:27:51.741{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+11-02-2025_15:27:51.755{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:27:51.756{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+11-02-2025_15:27:51.756{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-02-2025_15:27:52.015{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+11-02-2025_15:27:52.015{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2498 ms
+11-02-2025_15:27:52.302{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+11-02-2025_15:27:52.406{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+11-02-2025_15:27:52.673{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-02-2025_15:27:52.836{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+11-02-2025_15:27:54.187{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+11-02-2025_15:27:54.239{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-02-2025_15:27:55.879{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-02-2025_15:27:55.892{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:27:56.377{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+11-02-2025_15:27:56.904{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+11-02-2025_15:27:57.506{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+11-02-2025_15:27:58.025{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-02-2025_15:27:58.310{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69e636cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a59324f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d2a164e, org.springframework.security.web.header.HeaderWriterFilter@1c74eeb7, org.springframework.security.web.authentication.logout.LogoutFilter@3c72c488, com.talentstream.filter.JwtRequestFilter@7a02d760, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35216a2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c51dec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@427c8f6, org.springframework.security.web.session.SessionManagementFilter@613bebb9, org.springframework.security.web.access.ExceptionTranslationFilter@254dfd34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5546a9e0]
+11-02-2025_15:27:58.658{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:27:58.681{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+11-02-2025_15:27:59.903{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+11-02-2025_15:27:59.906{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 11.087 seconds (JVM running for 12.493)
+11-02-2025_15:27:59.992{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-02-2025_15:27:59.992{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+11-02-2025_15:27:59.994{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 2 ms
+11-02-2025_15:28:00.011{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:28:00.012{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:28:00.012{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:28:00.060{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+11-02-2025_15:28:05.922{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:28:05.923{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:28:05.923{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:28:06.002{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_15:28:06.009{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_15:28:06.231{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+11-02-2025_15:28:06.231{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+11-02-2025_15:28:06.369{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:28:15.077{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:28:15.082{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3ODg2LCJleHAiOjE3Mzk4NzI2ODZ9.TA0-zSN_vxYTwOfM0q2FOLqAMtFzcytmLy2dV5Jm2WI
+11-02-2025_15:28:15.083{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY3ODg2LCJleHAiOjE3Mzk4NzI2ODZ9.TA0-zSN_vxYTwOfM0q2FOLqAMtFzcytmLy2dV5Jm2WI
+11-02-2025_15:28:15.084{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:28:15.339{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: docx
+11-02-2025_15:28:15.530{UTC}|report-tool|INFO ||o.j.r.t.RemoteConversionTask|Executing remote conversion task...
+11-02-2025_15:29:53.921{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+11-02-2025_15:29:53.942{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:29:53.943{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+11-02-2025_15:29:53.945{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:29:55.024{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:29:56.107{UTC}|report-tool|INFO ||o.a.c.c.StandardWrapper|Waiting for [1] instance(s) to be deallocated for Servlet [dispatcherServlet]
+11-02-2025_15:29:56.218{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+11-02-2025_15:29:56.223{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:29:56.225{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:444)
+ java.base@17.0.12/java.util.concurrent.FutureTask.get(FutureTask.java:203)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.waitTaskCompletion(AbstractOfficeManagerPoolEntry.java:95)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.execute(AbstractOfficeManagerPoolEntry.java:86)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPool.execute(AbstractOfficeManagerPool.java:216)
+ app//org.jodconverter.remote.RemoteConverter$RemoteConversionJob.doExecute(RemoteConverter.java:121)
+ app//org.jodconverter.core.job.AbstractConversionJob.execute(AbstractConversionJob.java:63)
+ app//com.talentstream.service.ApplicantResumeService.convertDocToPdfInMemory(ApplicantResumeService.java:252)
+ app//com.talentstream.service.ApplicantResumeService.getResumeByApplicantId(ApplicantResumeService.java:212)
+ app//com.talentstream.controller.ApplicantResumeController.getResume(ApplicantResumeController.java:53)
+ java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+ java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
+ app//org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+ app//org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+ app//org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+ app//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+ app//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+ app//org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+ app//org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+ app//org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+ app//org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+ app//org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+ app//javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+ app//org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+ app//javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+ app//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+ app//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+ app//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+ app//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+ app//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+ app//org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+ app//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ app//org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+ app//org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+ app//org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+ app//org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+ app//org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ app//org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ app//org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ app//org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ app//org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ app//org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+ app//org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+ app//org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ app//org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+ app//org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+ app//org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)]
+11-02-2025_15:29:56.227{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [jodconverter-poolentry-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:290)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+ java.base@17.0.12/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+ java.base@17.0.12/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+ app//org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+ app//org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+ app//org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+ app//org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+ app//org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+ app//org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+ app//org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+ app//org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+ app//org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+ app//org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+ app//org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+ app//org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+ app//org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+ app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+ app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+ app//org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+ app//org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+ app//org.jodconverter.remote.task.RemoteConversionTask.execute(RemoteConversionTask.java:148)
+ app//org.jodconverter.remote.office.RemoteOfficeManagerPoolEntry.doExecute(RemoteOfficeManagerPoolEntry.java:302)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.lambda$execute$0(AbstractOfficeManagerPoolEntry.java:81)
+ app//org.jodconverter.core.office.AbstractOfficeManagerPoolEntry$$Lambda$1875/0x0000028581b2f6b0.call(Unknown Source)
+ java.base@17.0.12/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:29:56.228{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:29:56.243{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Error converting document to PDF
+	at com.talentstream.service.ApplicantResumeService.convertDocToPdfInMemory(ApplicantResumeService.java:255)
+	at com.talentstream.service.ApplicantResumeService.getResumeByApplicantId(ApplicantResumeService.java:212)
+	at com.talentstream.controller.ApplicantResumeController.getResume(ApplicantResumeController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:29:56.252{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:29:56.268{UTC}|report-tool|INFO ||o.j.c.o.AbstractOfficeManagerPool|Stopping the office manager pool...
+11-02-2025_15:29:56.279{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:29:56.281{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+11-02-2025_15:29:56.308{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+11-02-2025_15:29:59.378{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+11-02-2025_15:29:59.402{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 8732 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+11-02-2025_15:29:59.404{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+11-02-2025_15:29:59.404{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+11-02-2025_15:30:00.651{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-02-2025_15:30:00.807{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 145 ms. Found 28 JPA repository interfaces.
+11-02-2025_15:30:01.543{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+11-02-2025_15:30:01.559{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:30:01.559{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+11-02-2025_15:30:01.559{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-02-2025_15:30:01.742{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+11-02-2025_15:30:01.743{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2260 ms
+11-02-2025_15:30:01.960{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+11-02-2025_15:30:02.025{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+11-02-2025_15:30:02.214{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-02-2025_15:30:02.321{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+11-02-2025_15:30:04.733{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+11-02-2025_15:30:04.783{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-02-2025_15:30:06.579{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-02-2025_15:30:06.591{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:30:07.082{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+11-02-2025_15:30:07.589{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+11-02-2025_15:30:08.125{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+11-02-2025_15:30:08.633{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-02-2025_15:30:08.928{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27002c5a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69e636cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@2625eb84, org.springframework.security.web.header.HeaderWriterFilter@72f4232, org.springframework.security.web.authentication.logout.LogoutFilter@6cc91654, com.talentstream.filter.JwtRequestFilter@106f0051, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3725471, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35216a2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a59324f, org.springframework.security.web.session.SessionManagementFilter@44bbf5e3, org.springframework.security.web.access.ExceptionTranslationFilter@3a35a792, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@279e9c95]
+11-02-2025_15:30:09.313{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:30:09.349{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+11-02-2025_15:30:10.471{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+11-02-2025_15:30:10.474{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 11.647 seconds (JVM running for 12.636)
+11-02-2025_15:30:10.569{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-02-2025_15:30:10.569{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+11-02-2025_15:30:10.571{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 2 ms
+11-02-2025_15:30:10.590{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:30:10.590{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:30:10.590{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:30:10.641{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+11-02-2025_15:30:16.944{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:354)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.talentstream.service.JwtUtil.extractAllClaims(JwtUtil.java:53)
+	at com.talentstream.service.JwtUtil.extractClaim(JwtUtil.java:46)
+	at com.talentstream.service.JwtUtil.extractUsername(JwtUtil.java:38)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:46)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:30:21.042{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:30:21.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:30:21.044{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:30:21.159{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_15:30:21.172{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_15:30:21.633{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+11-02-2025_15:30:21.633{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+11-02-2025_15:30:22.106{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:30:29.770{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:30:29.775{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MDIyLCJleHAiOjE3Mzk4NzI4MjJ9.h8QZ6P61dKDIhjX-g6IgoOYWvmB0yu_N9QIuFMTY3NQ
+11-02-2025_15:30:29.776{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MDIyLCJleHAiOjE3Mzk4NzI4MjJ9.h8QZ6P61dKDIhjX-g6IgoOYWvmB0yu_N9QIuFMTY3NQ
+11-02-2025_15:30:29.777{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:30:30.406{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: pdf
+11-02-2025_15:30:35.112{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:30:35.117{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MDIyLCJleHAiOjE3Mzk4NzI4MjJ9.h8QZ6P61dKDIhjX-g6IgoOYWvmB0yu_N9QIuFMTY3NQ
+11-02-2025_15:30:35.118{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MDIyLCJleHAiOjE3Mzk4NzI4MjJ9.h8QZ6P61dKDIhjX-g6IgoOYWvmB0yu_N9QIuFMTY3NQ
+11-02-2025_15:30:35.119{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:30:35.469{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: doc
+11-02-2025_15:30:35.663{UTC}|report-tool|INFO ||o.j.r.t.RemoteConversionTask|Executing remote conversion task...
+11-02-2025_15:32:35.555{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Error converting document to PDF
+	at com.talentstream.service.ApplicantResumeService.convertDocToPdfInMemory(ApplicantResumeService.java:255)
+	at com.talentstream.service.ApplicantResumeService.getResumeByApplicantId(ApplicantResumeService.java:212)
+	at com.talentstream.controller.ApplicantResumeController.getResume(ApplicantResumeController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:32:35.805{UTC}|report-tool|ERROR||o.j.r.t.RemoteConversionTask|Remote conversion failed.
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.jodconverter.remote.task.RemoteConversionTask.execute(RemoteConversionTask.java:148)
+	at org.jodconverter.remote.office.RemoteOfficeManagerPoolEntry.doExecute(RemoteOfficeManagerPoolEntry.java:302)
+	at org.jodconverter.core.office.AbstractOfficeManagerPoolEntry.lambda$execute$0(AbstractOfficeManagerPoolEntry.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:35:29.355{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+11-02-2025_15:35:29.376{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:35:29.377{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+11-02-2025_15:35:29.379{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+11-02-2025_15:35:29.383{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:35:29.384{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [jodconverter-poolentry-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_15:35:29.386{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:35:29.389{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:35:29.407{UTC}|report-tool|INFO ||o.j.c.o.AbstractOfficeManagerPool|Stopping the office manager pool...
+11-02-2025_15:35:29.413{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:35:29.414{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+11-02-2025_15:35:29.438{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+11-02-2025_15:35:33.448{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+11-02-2025_15:35:33.470{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 15192 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+11-02-2025_15:35:33.470{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+11-02-2025_15:35:33.471{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+11-02-2025_15:35:35.048{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-02-2025_15:35:35.221{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 159 ms. Found 28 JPA repository interfaces.
+11-02-2025_15:35:36.270{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+11-02-2025_15:35:36.282{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:35:36.283{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+11-02-2025_15:35:36.284{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-02-2025_15:35:36.465{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+11-02-2025_15:35:36.466{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2898 ms
+11-02-2025_15:35:36.697{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+11-02-2025_15:35:36.785{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+11-02-2025_15:35:37.053{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-02-2025_15:35:37.190{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+11-02-2025_15:35:38.428{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+11-02-2025_15:35:38.472{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-02-2025_15:35:40.281{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-02-2025_15:35:40.296{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_15:35:40.881{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+11-02-2025_15:35:41.485{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+11-02-2025_15:35:41.777{UTC}|report-tool|INFO ||o.j.l.o.OfficeDescriptor|soffice info (from exec path): Product: LibreOffice - Version: ??? - useLongOptionNameGnuStyle: true
+11-02-2025_15:35:42.073{UTC}|report-tool|INFO ||o.j.l.o.LocalOfficeProcessManager|Starting process with --accept 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' and profileDir 'C:\Users\YASHPA~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1'
+11-02-2025_15:35:42.389{UTC}|report-tool|INFO ||o.j.l.o.OfficeConnection|Connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+11-02-2025_15:35:42.390{UTC}|report-tool|INFO ||o.j.l.o.LocalOfficeProcessManager|Started process; pid: 12544
+11-02-2025_15:35:42.410{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+11-02-2025_15:35:42.983{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-02-2025_15:35:43.337{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69f35d31, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68c1d547, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f7af3d0, org.springframework.security.web.header.HeaderWriterFilter@5f92ef40, org.springframework.security.web.authentication.logout.LogoutFilter@45e6f47a, com.talentstream.filter.JwtRequestFilter@31d09031, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ac3d009, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67e03fe4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34788780, org.springframework.security.web.session.SessionManagementFilter@3d1b6816, org.springframework.security.web.access.ExceptionTranslationFilter@26aecf31, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@796eeafb]
+11-02-2025_15:35:44.072{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+11-02-2025_15:35:44.104{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+11-02-2025_15:35:44.565{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|Entity: line 1: parser error : Document is empty
+11-02-2025_15:35:44.566{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|
+11-02-2025_15:35:44.566{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|^
+11-02-2025_15:35:45.755{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+11-02-2025_15:35:45.759{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 13.071 seconds (JVM running for 14.534)
+11-02-2025_15:35:45.879{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-02-2025_15:35:45.879{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+11-02-2025_15:35:45.881{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 1 ms
+11-02-2025_15:35:45.911{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:35:45.911{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:35:45.911{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:35:45.967{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+11-02-2025_15:35:53.809{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_15:35:53.809{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_15:35:53.809{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_15:35:53.920{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_15:35:53.930{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_15:35:54.140{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+11-02-2025_15:35:54.140{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+11-02-2025_15:35:54.269{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:36:02.201{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:36:02.208{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:02.208{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:02.208{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:36:02.442{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: doc
+11-02-2025_15:36:02.517{UTC}|report-tool|INFO ||o.j.l.t.LocalConversionTask|Executing local conversion task [? -> pdf]...
+11-02-2025_15:36:10.875{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:36:10.878{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:10.879{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:10.879{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:36:11.015{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: docx
+11-02-2025_15:36:11.017{UTC}|report-tool|INFO ||o.j.l.t.LocalConversionTask|Executing local conversion task [? -> pdf]...
+11-02-2025_15:36:16.010{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_15:36:16.015{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:16.015{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjY4MzU0LCJleHAiOjE3Mzk4NzMxNTR9.VWB16qiTdfaX8QVLdGDrHCg6t0Z1MCgPD8Qrd7n1HD4
+11-02-2025_15:36:16.015{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_15:36:16.163{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: pdf
+11-02-2025_16:02:17.265{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:17.277{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:17.434{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.dao.DataIntegrityViolationException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:280)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy149.findByEmail(Unknown Source)
+	at com.talentstream.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:51)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.DataException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:115)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406)
+	at jdk.proxy2/jdk.proxy2.$Proxy218.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 57 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 96 common frames omitted
+11-02-2025_16:02:22.190{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:02:22.192{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:02:22.193{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:02:22.280{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:02:22.281{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:02:22.408{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:22.408{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:22.409{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+11-02-2025_16:02:22.635{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+11-02-2025_16:02:22.635{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+11-02-2025_16:02:22.765{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+11-02-2025_16:02:22.834{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: patelyash250702@gmail.com
+11-02-2025_16:02:25.376{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:02:25.377{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:02:25.378{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:02:25.388{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:02:25.389{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:02:25.531{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:25.532{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:25.533{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+11-02-2025_16:02:25.533{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+11-02-2025_16:02:25.534{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+11-02-2025_16:02:25.534{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+11-02-2025_16:02:25.534{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: patelyash250702@gmail.com
+11-02-2025_16:02:26.445{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:02:26.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:02:26.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:02:26.449{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:02:26.450{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:02:26.576{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:26.576{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:26.577{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+11-02-2025_16:02:26.577{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+11-02-2025_16:02:26.577{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+11-02-2025_16:02:26.577{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+11-02-2025_16:02:26.577{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: patelyash250702@gmail.com
+11-02-2025_16:02:27.454{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:02:27.455{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:02:27.455{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:02:27.458{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:02:27.459{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:02:27.587{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:27.588{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:27.588{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+11-02-2025_16:02:27.588{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+11-02-2025_16:02:27.588{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+11-02-2025_16:02:27.589{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+11-02-2025_16:02:27.589{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: patelyash250702@gmail.com
+11-02-2025_16:02:28.786{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:02:28.787{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:02:28.787{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:02:28.789{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:02:28.789{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:02:28.915{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: 22P02
+11-02-2025_16:02:28.915{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|ERROR: invalid input syntax for type bigint: "patelyash250702@gmail.com"
+  Where: unnamed portal parameter $1 = '...'
+11-02-2025_16:02:28.917{UTC}|report-tool|ERROR||c.t.s.RegisterService|could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not extract ResultSet
+11-02-2025_16:02:28.917{UTC}|report-tool|INFO ||c.t.s.RegisterService|Checking
+11-02-2025_16:02:28.917{UTC}|report-tool|INFO ||c.t.s.RegisterService|Able to return applicant
+11-02-2025_16:02:28.917{UTC}|report-tool|INFO ||c.t.s.RegisterService|Applicant is null
+11-02-2025_16:02:28.918{UTC}|report-tool|WARN ||c.t.c.RegisterController|Google Sign-In failed. No applicant found for email: patelyash250702@gmail.com
+11-02-2025_16:02:32.075{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+11-02-2025_16:02:32.223{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-8081"]
+11-02-2025_16:02:32.225{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+11-02-2025_16:02:32.242{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+11-02-2025_16:02:32.300{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_16:02:32.305{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [jodconverter-poolentry-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.12/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+11-02-2025_16:02:32.314{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-8081"]
+11-02-2025_16:02:32.356{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-8081"]
+11-02-2025_16:02:32.422{UTC}|report-tool|INFO ||o.j.c.o.AbstractOfficeManagerPool|Stopping the office manager pool...
+11-02-2025_16:02:33.776{UTC}|report-tool|INFO ||o.j.l.o.OfficeConnection|Disconnected from 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+11-02-2025_16:03:11.831{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+11-02-2025_16:03:11.865{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 17.0.12 on SYMPLT1017 with PID 18000 (C:\Users\Yashpatel\Documents\Talentstreambackend1\target\classes started by Yashpatel in C:\Users\Yashpatel\Documents\Talentstreambackend1)
+11-02-2025_16:03:11.867{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+11-02-2025_16:03:11.872{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+11-02-2025_16:03:14.938{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11-02-2025_16:03:15.520{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 542 ms. Found 28 JPA repository interfaces.
+11-02-2025_16:03:19.199{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8081 (http)
+11-02-2025_16:03:19.229{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8081"]
+11-02-2025_16:03:19.233{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+11-02-2025_16:03:19.233{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-02-2025_16:03:19.731{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+11-02-2025_16:03:19.732{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 7714 ms
+11-02-2025_16:03:20.395{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+11-02-2025_16:03:22.568{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+11-02-2025_16:03:30.483{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11-02-2025_16:03:31.062{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+11-02-2025_16:03:33.819{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+11-02-2025_16:03:34.031{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11-02-2025_16:03:36.937{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11-02-2025_16:03:36.959{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+11-02-2025_16:03:37.573{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+11-02-2025_16:03:38.185{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+11-02-2025_16:03:39.956{UTC}|report-tool|INFO ||o.j.l.o.OfficeDescriptor|soffice info (from exec path): Product: LibreOffice - Version: ??? - useLongOptionNameGnuStyle: true
+11-02-2025_16:03:43.166{UTC}|report-tool|WARN ||o.j.l.o.LocalOfficeProcessManager|Profile dir 'C:\Users\YASHPA~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+11-02-2025_16:03:43.316{UTC}|report-tool|INFO ||o.j.l.o.LocalOfficeProcessManager|Starting process with --accept 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' and profileDir 'C:\Users\YASHPA~1\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1'
+11-02-2025_16:03:43.776{UTC}|report-tool|INFO ||o.s.b.f.a.AutowiredAnnotationBeanPostProcessor|Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.talentstream.controller.PlacementDriveController.LOGGER
+11-02-2025_16:03:52.833{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11-02-2025_16:03:53.382{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75f2a654, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5680228, org.springframework.security.web.context.SecurityContextPersistenceFilter@31ee5a9, org.springframework.security.web.header.HeaderWriterFilter@52bef30b, org.springframework.security.web.authentication.logout.LogoutFilter@494775f1, com.talentstream.filter.JwtRequestFilter@3b32f0b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@491afa9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@147a8d7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5411a529, org.springframework.security.web.session.SessionManagementFilter@46244e65, org.springframework.security.web.access.ExceptionTranslationFilter@25c3a441, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a120e41]
+11-02-2025_16:03:53.991{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8081"]
+11-02-2025_16:03:54.029{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8081 (http) with context path ''
+11-02-2025_16:03:55.363{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|Entity: line 1: parser error : Document is empty
+11-02-2025_16:03:55.364{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|
+11-02-2025_16:03:55.364{UTC}|report-tool|ERROR||o.j.l.o.VerboseProcess|^
+11-02-2025_16:03:55.511{UTC}|report-tool|DEBUG||c.t.h.HealthCheckScheduler|Performing backend health check...
+11-02-2025_16:03:55.516{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 44.592 seconds (JVM running for 45.957)
+11-02-2025_16:03:55.687{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-02-2025_16:03:55.688{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+11-02-2025_16:03:55.690{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 2 ms
+11-02-2025_16:03:55.723{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:03:55.724{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:03:55.724{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:03:55.819{UTC}|report-tool|INFO ||c.t.h.HealthCheckScheduler|Backend is healthy
+11-02-2025_16:04:00.316{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+11-02-2025_16:04:00.317{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+11-02-2025_16:04:00.318{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+11-02-2025_16:04:00.486{UTC}|report-tool|INFO ||c.t.c.RegisterController|Attempting to login with email: patelyash250702@gmail.com
+11-02-2025_16:04:00.496{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Handling Google Sign-In for email: patelyash250702@gmail.com
+11-02-2025_16:04:01.011{UTC}|report-tool|DEBUG||c.t.c.RegisterController|Google Sign-In successful for: patelyash250702@gmail.com
+11-02-2025_16:04:01.011{UTC}|report-tool|INFO ||c.t.c.RegisterController|Now I am at token gen
+11-02-2025_16:04:01.420{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_16:04:30.252{UTC}|report-tool|INFO ||o.j.l.o.OfficeConnection|Connected: 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1'
+11-02-2025_16:04:30.253{UTC}|report-tool|INFO ||o.j.l.o.LocalOfficeProcessManager|Started process; pid: 10100
+11-02-2025_16:04:32.526{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_16:04:32.529{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:32.529{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:32.529{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_16:04:33.021{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: doc
+11-02-2025_16:04:33.066{UTC}|report-tool|INFO ||o.j.l.t.LocalConversionTask|Executing local conversion task [? -> pdf]...
+11-02-2025_16:04:40.101{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_16:04:40.102{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:40.102{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:40.103{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_16:04:40.530{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: docx
+11-02-2025_16:04:40.531{UTC}|report-tool|INFO ||o.j.l.t.LocalConversionTask|Executing local conversion task [? -> pdf]...
+11-02-2025_16:04:46.418{UTC}|report-tool|INFO ||c.t.s.MyUserDetailsService|Applicant
+11-02-2025_16:04:46.420{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:46.421{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiaWF0IjoxNzM5MjcwMDQ2LCJleHAiOjE3Mzk4NzQ4NDZ9.XfSkaLWSW38wjnqsz5f3wkwIN6qgjSXK5OELABxvFHU
+11-02-2025_16:04:46.421{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+11-02-2025_16:04:46.846{UTC}|report-tool|INFO ||c.t.s.ApplicantResumeService|File extension is: pdf
