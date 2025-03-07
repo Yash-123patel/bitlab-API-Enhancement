@@ -186,7 +186,7 @@ public class PdfController {
             }
         }
 
-        // Save all updates in a single batch
+        // Save all updates using saveall
         if (!updatedApplicants.isEmpty()) {
             System.out.println("Updating all resumes");
             applicantRepository.saveAll(updatedApplicants);
