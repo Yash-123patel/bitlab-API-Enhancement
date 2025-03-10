@@ -153,7 +153,7 @@ public class PdfController {
         AmazonS3 s3Client = initializeS3Client();
         List<Applicant> applicants = applicantRepository.findAll();
 
-        // Filter applicants with a valid resumeId that hasn't already been updated
+        // Filtering applicants with a valid resumeId that hasn't already been updated
         List<Applicant> validApplicants = applicants.stream()
                 .filter(applicant -> isValidResumeId(applicant.getResumeId()) && !applicant.getResumeId().equals(String.valueOf(applicant.getId())))
                 .collect(Collectors.toList());
@@ -176,8 +176,7 @@ public class PdfController {
             try {
                 s3Client.copyObject(new CopyObjectRequest(bucketName, oldKey, bucketName, newKey));
                 s3Client.deleteObject(new DeleteObjectRequest(bucketName, oldKey));
-
-                // Update only if the rename was successful
+		    
                 applicant.setResumeId(String.valueOf(applicant.getId()));
                 updatedApplicants.add(applicant);
             } catch (Exception e) {
@@ -186,7 +185,7 @@ public class PdfController {
             }
         }
 
-        // Save all updates using saveall
+        // Saving all updates using saveall
         if (!updatedApplicants.isEmpty()) {
             System.out.println("Updating all resumes");
             applicantRepository.saveAll(updatedApplicants);
