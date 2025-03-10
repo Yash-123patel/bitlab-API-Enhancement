@@ -439,8 +439,7 @@ public class JobController {
 					CSVReader csvReader = new CSVReader(reader)) {
 
 				String[] fields;
-				csvReader.readNext(); // Skip the header row
-
+				csvReader.readNext(); 
 				while ((fields = csvReader.readNext()) != null) {
 
   	            
