@@ -442,14 +442,9 @@ public class JobController {
 				csvReader.readNext(); 
 				while ((fields = csvReader.readNext()) != null) {
 
-  	            
-
-					
-					
 					if (LOGGER.isInfoEnabled()) {
 					    LOGGER.info("All Fields: {}", Arrays.toString(fields));
 					}
-
 
 					JobDTO jobDTO = new JobDTO();
 
